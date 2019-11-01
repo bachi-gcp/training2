@@ -5,5 +5,9 @@ pub mod calci {
     pub fn mul(a:i32,b:i32)->i32{
         a*b
     }
+    pub fn equal(a:i32,b:i32)->bool{
+      a==b
+
+    }
 
 }

@@ -7,4 +7,5 @@ fn main() {
 
     println!("Add result: {}", result_add);
     println!("mul result: {}",calci::mul(3,4) );
+    println!("mul result: {}",calci::equal(4,4) );
 }
