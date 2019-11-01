@@ -10,4 +10,10 @@ fn main() {
     let result_sub:i32=calci::sub(3,4);
 
     println!("sub result : {}", result_sub);
+
+    calci::print();
+
+
+
+    
 }
