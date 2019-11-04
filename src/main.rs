@@ -3,7 +3,6 @@ extern crate mymath;
 use mymath::calci;
 mod temp;
 
-
 fn main() {
     let result_add: i32 = calci::add(3,4);
 
