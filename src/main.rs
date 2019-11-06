@@ -9,6 +9,8 @@ fn main() {
     println!("Add result: {}", result_add);
     println!("mul result: {}", calci::mul(3,4));
     println!("mul result: {}", calci::equal(4,4));
-    temp::fun();
+    let result_sub:i32=calci::sub(3,4);
+    println!("sub result : {}", result_sub);
+    calci::print();
     
 }
